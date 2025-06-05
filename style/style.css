@@ -1,0 +1,98 @@
+body {
+  background-color: #EEF3EC;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-size: 90;
+  font-weight: 500;
+  line-height: 120px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+h4 {
+  font-size: 32px;
+}
+
+h5 {
+  font-size: 28px;
+}
+
+.subH {
+  font-size: 20;
+  font-weight: 500;
+  line-height: 140px;
+}
+
+.b_txt {
+  font-size: 16;
+  font-weight: 500;
+  line-height: 160px;
+}
+
+.txt {
+  font-size: 16;
+  font-weight: 300;
+  line-height: 160px;
+}
+
+.s.txt {
+  font-size: 16;
+  font-weight: 300;
+  line-height: 150px;
+}
+
+header {
+  width: 1540px;
+  height: 75px;
+  background-color: #06567e;
+}
+header .container_header {
+  width: 100%;
+  color: #FFFFFF;
+  background-color: #06567e;
+  font-size: 1rem;
+}
+header .container_header .navbar__header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container_header .navbar__header .header__logo {
+  width: 150.41px;
+  height: 57.55px;
+  color: #FFFFFF;
+}
+header .container_header .navbar__header a {
+  color: #FFFFFF;
+}
+header .container_header .navbar__header .batton {
+  background-color: #009A44;
+}
+
+.container {
+  width: 1540px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hero {
+  width: 100%;
+  height: 950px;
+  position: relative;
+  background: url(../images/maskgroup.jpg);
+}
+#hero .frame {
+  width: 500px;
+  height: 399px;
+}/*# sourceMappingURL=style.css.map */

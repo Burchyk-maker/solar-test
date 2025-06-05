@@ -1,0 +1,9 @@
+делаю ГИТ и коментирую:
+ перейти на сайт гита:https://github.com/
+ найти кнопку :New
+ перейти на страницу:https://github.com/new
+ заполнили поля и создали новый репозиторий
+ копируем адрес с кнопки code-SSH-git@github.com:Burchyk-maker/solar-test.git
+ переходим в директорию сайтов OSPanel\domains командой cd../
+пишем команду git clone git@github.com:Burchyk-maker/solar-test.git
+новый репозиторий создан локально
