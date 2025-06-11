@@ -4,9 +4,9 @@ body {
 }
 
 h1 {
-  font-size: 90;
+  font-size: 90px;
   font-weight: 500;
-  line-height: 120px;
+  line-height: 1.2;
 }
 
 h2 {
@@ -28,55 +28,68 @@ h5 {
 .subH {
   font-size: 20;
   font-weight: 500;
-  line-height: 140px;
+  line-height: 1.4;
 }
 
 .b_txt {
   font-size: 16;
   font-weight: 500;
-  line-height: 160px;
+  line-height: 1.6;
 }
 
 .txt {
   font-size: 16;
-  font-weight: 300;
-  line-height: 160px;
+  font-weight: 700;
+  line-height: 1.6;
 }
 
 .s.txt {
   font-size: 16;
-  font-weight: 300;
-  line-height: 150px;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 header {
-  width: 1540px;
-  height: 75px;
+  width: 100%;
+  height: 117px;
   background-color: #06567e;
+  padding-top: 21px;
+  padding-bottom: 21px;
 }
 header .container_header {
   width: 100%;
   color: #FFFFFF;
   background-color: #06567e;
   font-size: 1rem;
-}
-header .container_header .navbar__header {
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-header .container_header .navbar__header .header__logo {
-  width: 150.41px;
-  height: 57.55px;
-  color: #FFFFFF;
+header .container_header .navbar__header {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container_header .navbar__header ul {
+  width: 100%;
+  margin: 0 100px;
 }
 header .container_header .navbar__header a {
   color: #FFFFFF;
 }
-header .container_header .navbar__header .batton {
+header .container_header .header__logo {
+  width: 150.41px;
+  height: 57.55px;
+  color: #FFFFFF;
+}
+header .container_header .button {
   background-color: #009A44;
+  color: #FFFFFF;
+  border-radius: 30px;
+  padding: 18px 24px 18px 24px;
 }
 
 .container {
@@ -92,7 +105,59 @@ header .container_header .navbar__header .batton {
   position: relative;
   background: url(../images/maskgroup.jpg);
 }
+#hero .hero-inner {
+  width: 1540px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+#hero h1 {
+  color: #FFFFFF;
+}
+#hero p {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+#hero .hero_wrap {
+  right: 0px;
+  bottom: 70px;
+}
 #hero .frame {
   width: 500px;
   height: 399px;
+}
+
+#panels .title {
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 160PX;
+}
+#panels .title .button {
+  width: 162px;
+  height: 52px;
+  border: 1px solid #1A4B38;
+  border-radius: 30px;
+  padding: 18px 24px 18px 24px;
+  background-color: #EEF3EC;
+  color: #1A4B38;
+}
+#panels .title .line {
+  width: 278px;
+  height: 1px;
+  color: #1A4B38;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+#panels .panel {
+  width: 100%;
+  height: auto;
+}
+
+#advantage {
+  width: 100%;
+  height: 950px;
+  position: relative;
+  background: url(../images/rectangle114.svg);
 }/*# sourceMappingURL=style.css.map */
