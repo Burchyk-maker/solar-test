@@ -5,7 +5,7 @@ $green:#37673D;
 $white:#FFFFFF;
 $dark-grey:#8799A5;
 $yellow:#F1FFBD;
-$leight-grfeen:#009A44;
+$leight-green:#009A44;
 $gradient:#F1FFBD;
 
 
@@ -51,11 +51,35 @@ h5{
     font-weight: 700;
     line-height: 1.5;
 }
+.line{
+    width: 50%;
+    display: inline-block;
+    height: 2px;
+    background:$dark-green ;    
+}
+.button{            
+    background-color: $leight-green;
+    color:$white;
+    border-radius: 30px;
+    padding: 18px 24px 18px 24px;
+    &:hover{
+        background-color: $green;
+        color:$white ;
+    }
+
+}     
+.button2{   
+    color:$black;
+    border:$black solid 2px;
+    border-radius:  30px;
+    padding: 18px 24px 18px 24px;  
+
+}     
 
 header{
     width: 100%;
     height: 117px;    
-    background-color: #06567e;
+    background-color:$black;
     padding-top: 21px;
     padding-bottom: 21px;
     .container_header{
@@ -67,8 +91,7 @@ header{
         flex-direction: row;
         justify-content: space-between ;
         align-items: center;                
-        .navbar__header{
-            
+        .navbar__header{            
             display: flex;
             flex: 1;
             flex-direction: row;
@@ -87,14 +110,7 @@ header{
             width: 150.41px;
             height: 57.55px;
             color:$white;
-        }
-        .button{            
-            background-color: $leight-grfeen;
-            color:$white;
-            border-radius: 30px;
-            padding: 18px 24px 18px 24px;
-
-        }     
+        }       
     }
 }
 .container{
@@ -104,17 +120,46 @@ header{
     margin-right: auto;
     
 }
+#getConsultation{
+    .modal-dialog{
+        max-width: 1060px;
+        width: 100%;
+        background: #FFFFFF;    
+    }
+    .modal-header{
+        border-bottom: 0px solid transparent;
+    }
+    .modal-footer{
+        border-top: 0px solid transparent;
+    }
+    .modal-content{
+        background: #F1FFBD;
+        background: linear-gradient(180deg, rgba(241, 255, 189, 1) 0%, rgba(241, 255, 189, 0) 40%);
+    }
+    .about_user{
+        border-radius: 30px;
+        padding: 18px 24px 18px 24px;
+    }
+    textarea{
+        border-radius: 30px;
+    }
+}
+
+.title_wrap{
+    margin-left: 60px;
+    margin-right: 60px;    
+.title{
+    width: 100%;       
+    margin-bottom: 40px;
+    margin-top:160px ;
+}   
+}
+
 #hero{
     width: 100%;
-    height: 950px;
-    position:relative;   
+    height: 950px;     
     background: url(../images/maskgroup.jpg);
-    .hero-inner{
-        width: 1540px;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    background-size: cover;   
     h1{
         color:#FFFFFF;
     }
@@ -126,19 +171,15 @@ header{
 
     }
     .hero_wrap{
+        width: 500px;
+        height: 399px;   
         right: 0px;
         bottom: 70px;
+        bottom: 0;
     }
-    .frame{
-        width: 500px;
-        height: 399px;       
-    }
+ 
 }
-#panels{
-    .title{
-        width: 100%;       
-        margin-bottom: 40px;
-        margin-top:160PX ;
+#panels{ 
         .button{
             width: 162px;
             height: 52px;
@@ -147,15 +188,8 @@ header{
             padding: 18px 24px 18px 24px;
             background-color: #EEF3EC;
             color: #1A4B38;       
-        }
-        .line{
-            width: 278px;
-            height: 1px;
-            color:#1A4B38; 
-            margin-left: 40px;
-            margin-top: 40px;
-        }
-    }
+        }       
+
     .panel{
         width: 100%;
         height: auto;
@@ -167,3 +201,49 @@ header{
     position:relative;   
     background: url(../images/rectangle114.svg);
 }
+.chart-container{
+    width: 100%;
+    height: auto;
+    background-color:$white;
+}
+#projects{
+    width: 100%;
+    height: 100%;
+    background-color: $white ;
+    position:relative;   
+}
+
+.owl-carousel{
+    position: relative;
+    .owl-nav{
+        position: absolute;
+        top:-50px;
+        right: 0;
+       
+            .owl-prev{
+                width: 52px;
+                height: 52px;
+                border:$black 2px solid ;
+                border-radius: 50%;
+                position: relative;
+            }             
+    }
+}
+
+
+
+.form-check-input:checked[type=radio] {
+    --bs-form-check-bg-image: none;
+}
+.form-check-input:checked {
+    background-color: #000;
+    border-color:#fff;
+    border-width:4px ;
+    color:#000;   
+    border-radius: 50%;    
+}
+
+    .form-check-input:focus {        
+        outline: 0;
+        box-shadow: 0 0 0 .25rem rgba(0, 0, 0, .25);
+    }

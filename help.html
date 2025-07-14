@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/style/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <p>
+        1-получить адресс репозитория и клонировать: "git clone git@github.com:MaxVlado/CodeDeploy.git"
+        2-зайти в проэкт;
+        3-получить задачу(#2550): например создать файл цсс с базовыми настройками;
+        4-создаем новую ветку и переходим в нее: git checkout -b 2550;
+        5- проверяем ветку: git branch;
+        6-работаем только в этой ветке(иыполняем задание);
+        7-(после выполнения задания)переходим в терминал,проверяем статус: git status;
+        8-если создан новый или модифи старый файл (текст подсвечен красным) , то
+        добавляем все файлы в инлекс гита: git add . ;
+        9-если файлы в индексе (п.8) и горят зеленым ,
+        создаем комит этого индекса:git commit -m "2550-1";
+        10-проверяем статус: git status , никаких подсветок файлов не должно быть и означает что комит можно отправлять;
+        11-отправляем ветку в репозиторий: git push origin 2550;
+        12-подключение удаленого репозитория через ssh :git remote add origin;
+        13-проверка подключения git remote -v;
+    </p>
+    <article>
+        1- инсталировать НОД с сайта nodejs.org Проверить НОД :node -v
+        2- инсталировать npm install при каждом новом проэкте Проверить : npm -v
+        3- создать файл webpack.mix.js - упаковщик с настройками
+        4- инсалировать laravel mix - npm install laravel-mix --save-dev
+        5-компиляция:
+        a- npx mix (выполняет сборку webpack.mix.js)
+        b- npx mix watch or npm run watch (сборка и автоматическая загрузка при изменениях)
+        с- npm run dev (сборка без модификаций)
+        в- npm run prod (сборка с минификацией оптимизацией)
+    </article>
+
+
+</body>
+
+</html>
